@@ -1,17 +1,17 @@
 // Regalos Envueltos
-function wrapping(gifts) {
-    const envuelto = [];
-    for (let gift of gifts) {
-        let tapa = '*'.repeat(gift.length + 2);
-        let g = `${tapa}\n*${gift}*\n${tapa}`;
-        envuelto.push(g);
-    }
-    return envuelto;
-}
+// function wrapping(gifts) {
+//     const envuelto = [];
+//     for (let gift of gifts) {
+//         let tapa = '*'.repeat(gift.length + 2);
+//         let g = `${tapa}\n*${gift}*\n${tapa}`;
+//         envuelto.push(g);
+//     }
+//     return envuelto;
+// }
 
-const gifts = ['cat', 'game', 'socks']
-const wrapped = wrapping(gifts)
-console.log(wrapped)
+// const gifts = ['cat', 'game', 'socks']
+// const wrapped = wrapping(gifts)
+// console.log(wrapped)
 
 // Cubo
 function createCube(size) {
@@ -40,3 +40,14 @@ function createCube(size) {
 
 const cube = createCube(3)
 console.log(cube)
+
+// function messageSpam(repeat){
+//     let mensaje = '';
+//     for(let i = 0; i < repeat; i++){
+//         mensaje += 'Hola'.repeat(i + 1);
+//     }
+//     return mensaje;
+// }
+
+// const mensaje = messageSpam(3);
+// console.log(mensaje);
